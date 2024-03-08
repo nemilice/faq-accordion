@@ -1,8 +1,22 @@
+@font-face {
+  font-family: sansReg;
+  src: url('../assets/fonts/static/WorkSans-Regular.ttf') format('true type');
+}
+@font-face {
+  font-family: sansBold;
+  src: url('../assets/fonts/static/WorkSans-Bold.ttf') format('true type');
+}
+@font-face {
+  font-family: sansSemiBold;
+  src: url('../assets/fonts/static/WorkSans-SemiBold.ttf') format('true type');
+}
+
 :root {
-  --prim: hsl(200, 97%, 45%);
-  --sec: hsl(231, 48%, 48%);
-  --dark: hsl(199, 18%, 40%);
-  --light: hsl(199, 94%, 94%);
+  --White: hsl(0, 0%, 100%);
+  --LightPink: hsl(275, 100%, 97%);
+  --GrayishPurple: hsl(292, 16%, 49%);
+  --DarkPurple: hsl(292, 42%, 14%);
+  --fsize: 1.6rem;
 }
 
 *,
@@ -16,5 +30,5 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: sansReg, 'Courier New', Courier, monospace;
 }

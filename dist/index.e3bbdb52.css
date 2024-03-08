@@ -1,0 +1,2 @@
+@font-face{font-family:sansReg;src:url(WorkSans-Regular.6700bb84.ttf)format("true type")}@font-face{font-family:sansBold;src:url(WorkSans-Bold.ad99267b.ttf)format("true type")}@font-face{font-family:sansSemiBold;src:url(WorkSans-SemiBold.b72c7662.ttf)format("true type")}:root{--White:#fff;--LightPink:#f9f0ff;--GrayishPurple:#8c6991;--DarkPurple:#2f1533;--fsize:1.6rem}*,:after,:before{box-sizing:border-box;margin:0;padding:0}html{font-size:62.5%}body{font-family:sansReg,Courier New,Courier,monospace}
+/*# sourceMappingURL=index.e3bbdb52.css.map */
