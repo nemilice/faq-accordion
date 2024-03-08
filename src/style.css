@@ -1,0 +1,20 @@
+:root {
+  --prim: hsl(200, 97%, 45%);
+  --sec: hsl(231, 48%, 48%);
+  --dark: hsl(199, 18%, 40%);
+  --light: hsl(199, 94%, 94%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
